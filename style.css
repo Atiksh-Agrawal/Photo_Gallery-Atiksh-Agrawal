@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+img {
+    transition: transform .2s;
+}
+
+.corousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#corousel {
+    background-color: chartreuse;
+}
+
+#corousel img {
+    height: 300px;
+    margin: 35px;
+}
